@@ -2,6 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.index.html
+.practice.html
+.books_to_scrape
+Unnecessary/
+
 
 # C extensions
 *.so
