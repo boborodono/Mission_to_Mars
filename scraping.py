@@ -22,7 +22,7 @@ def scrape_all():
         "facts": mars_facts(),
         "last_modified": dt.datetime.now(),
         #? D2: Step 2: Add a "hemisphere" key to the dictionary
-        "hemisphere_images": hemi_titles
+        "hemisphere_images": hemi_data(browser)
     }
 
     # Stop webdriver and return data
